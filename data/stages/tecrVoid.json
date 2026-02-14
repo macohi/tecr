@@ -1,0 +1,57 @@
+{
+	"version": "1.0.2",
+	"name": "Tecr Void",
+	"props": [
+		{
+			"alpha": 1,
+			"angle": 0,
+			"animType": "sparrow",
+			"animations": [],
+			"assetPath": "#FFFFFF",
+			"atlasSettings": null,
+			"blend": "",
+			"color": "#FFFFFF",
+			"danceEvery": 0,
+			"flipX": false,
+			"flipY": false,
+			"isPixel": true,
+			"name": "void",
+			"position": [-640, -360],
+			"scale": [2560, 1440],
+			"scroll": [0, 0],
+			"startingAnimation": "",
+			"zIndex": 0
+		}
+	],
+	"characters": {
+		"bf": {
+			"alpha": 1,
+			"angle": 0,
+			"cameraOffsets": [-100, -100],
+			"position": [949, 665],
+			"scale": 1,
+			"scroll": [1, 1],
+			"zIndex": 300
+		},
+		"dad": {
+			"alpha": 1,
+			"angle": 0,
+			"cameraOffsets": [150, -100],
+			"position": [470.5, 693],
+			"scale": 1,
+			"scroll": [1, 1],
+			"zIndex": 200
+		},
+		"gf": {
+			"alpha": 0,
+			"angle": 0,
+			"cameraOffsets": [0, 0],
+			"position": [751.5, 787],
+			"scale": 1,
+			"scroll": [1, 1],
+			"zIndex": 100
+		}
+	},
+	"cameraZoom": 1.5,
+	"directory": "shared"
+}
