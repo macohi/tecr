@@ -52,8 +52,7 @@
     },
     {
       "name": "deathLoop",
-      "prefix": "deathLoop",
-      "looped": true
+      "prefix": "deathLoop"
     },
     {
       "name": "deathConfirm",
