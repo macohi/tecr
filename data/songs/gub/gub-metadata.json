@@ -1,6 +1,6 @@
 {
  "version": "2.2.4",
- "songName": "Bitdep",
+ "songName": "Gub",
  "artist": "Macohi",
  "charter": "Macohi",
  "divisions": 96,
@@ -21,11 +21,11 @@
   "characters": {
    "player": "kerel",
    "girlfriend": "",
-   "opponent": "rooi ou",
+   "opponent": "teybi",
    "instrumental": "",
    "altInstrumentals": [],
    "opponentVocals": [
-    "rooi ou"
+    "teybi"
    ],
    "playerVocals": [
     "kerel"
@@ -35,12 +35,12 @@
   "noteStyle": "funkin",
   "ratings": {
    "easy": 3,
-   "normal": 4,
-   "hard": 6
+   "hard": 6,
+   "normal": 4
   },
+  "album": "block",
   "previewStart": 0,
-  "previewEnd": 0,
-  "album": "block"
+  "previewEnd": 0
  },
  "generatedBy": "Friday Night Funkin' - v0.8.1",
  "timeFormat": "ms",

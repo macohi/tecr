@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="teybi.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="teybi anim idle0000" x="4" y="4" width="127" height="132" frameX="0" frameY="-16" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0001" x="4" y="4" width="127" height="132" frameX="0" frameY="-16" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0002" x="139" y="4" width="101" height="141" frameX="-12" frameY="-7" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0003" x="139" y="4" width="101" height="141" frameX="-12" frameY="-7" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0004" x="248" y="4" width="84" height="146" frameX="-20" frameY="-1" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0005" x="248" y="4" width="84" height="146" frameX="-20" frameY="-1" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0006" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0007" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0008" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0009" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0010" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0011" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0012" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+	<SubTexture name="teybi anim idle0013" x="340" y="4" width="80" height="148" frameX="-21" frameY="0" frameWidth="127" frameHeight="148"/>
+</TextureAtlas>
