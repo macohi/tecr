@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "name": "Kerel",
+  "renderType": "animateatlas",
+  "assetPath": "characters/kerel",
+  "flipX": false,
+  "offsets": [17, 14],
+  "cameraOffsets": [0,0],
+  "death": {
+    "cameraOffsets": [0,0]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "singLEFT"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "singDOWN"
+    },
+    {
+      "name": "singUP",
+      "prefix": "singUP"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "singRIGHT"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "singLEFTmiss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "singDOWNmiss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "singUPmiss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "singRIGHTmiss"
+    },
+    {
+      "name": "firstDeath",
+      "prefix": "firstDeath"
+    },
+    {
+      "name": "deathLoop",
+      "prefix": "deathLoop",
+      "looped": true
+    },
+    {
+      "name": "deathConfirm",
+      "prefix": "deathConfirm"
+    }
+  ]
+}

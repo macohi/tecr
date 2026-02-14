@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "Rooi ou",
+  "renderType": "animateatlas",
+  "assetPath": "characters/rooi ou",
+  "flipX": false,
+  "offsets": [0,0],
+  "cameraOffsets": [0,0],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "singLEFT"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "singDOWN"
+    },
+    {
+      "name": "singUP",
+      "prefix": "singUP"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "singRIGHT"
+    }
+  ]
+}
