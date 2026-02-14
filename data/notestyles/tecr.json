@@ -6,7 +6,10 @@
   "assets": {
     "note": {
       "assetPath": "hud/note-colored",
-      "scale": 0.7,
+      "alpha": 1,
+      "scale": 1,
+      "offsets": [0, 0],
+      "isPixel": true,
       "data": {
         "left": { "prefix": "note left" },
         "down": { "prefix": "note down" },
@@ -16,8 +19,10 @@
     },
     "noteStrumline": {
       "assetPath": "hud/note-static",
-      "scale": 0.7,
-      "offsets": [0, 0],
+      "alpha": 1,
+      "scale": 1,
+      "isPixel": true,
+      "offsets": [25, 0],
       "data": {
         "leftStatic": { "prefix": "static note idle" },
         "leftPress": { "prefix": "static note pressed" },
@@ -42,53 +47,61 @@
     },
     "holdNote": {
       "assetPath": "hud/note-hold",
-      "scale": 0.7,
+      "alpha": 1,
+      "scale": 2,
+      "offsets": [-24, 0],
+      "isPixel": true,
       "data": {}
     },
     "noteSplash": {
-      "assetPath": "hud/note-splash",
-      "alpha": 0.8,
-      "offsets": [25, -5],
+      "assetPath": "hud/note-holdcover",
+      "alpha": 1,
+      "scale": 1,
+      "offsets": [0, 0],
+      "isPixel": true,
       "data": {
         "enabled": true,
         "leftSplashes": [
-          { "prefix": "note impact" }
+          { "prefix": "hold end" }
         ],
         "rightSplashes": [
-          { "prefix": "note impact" }
+          { "prefix": "hold end" }
         ],
         "upSplashes": [
-          { "prefix": "note impact" }
+          { "prefix": "hold end" }
         ],
         "downSplashes": [
-          { "prefix": "note impact" }
+          { "prefix": "hold end" }
         ]
       }
     },
     "holdNoteCover": {
       "assetPath": "hud/note-holdcover",
-      "offsets": [0, 0],
+      "alpha": 1,
+      "scale": 1,
+      "offsets": [-50, 0],
+      "isPixel": true,
       "data": {
         "enabled": true,
         "left": {
-          "start": { "prefix": "holdCoverStartPurple" },
-          "hold": { "prefix": "holdCoverPurple" },
-          "end": { "prefix": "holdCoverEndPurple" }
+          "start": { "prefix": "hold start" },
+          "hold": { "prefix": "hold hold" },
+          "end": { "prefix": "hold end" }
         },
         "right": {
-          "start": { "prefix": "holdCoverStartRed" },
-          "hold": { "prefix": "holdCoverRed" },
-          "end": { "prefix": "holdCoverEndRed" }
+          "start": { "prefix": "hold start" },
+          "hold": { "prefix": "hold hold" },
+          "end": { "prefix": "hold end" }
         },
         "up": {
-          "start": { "prefix": "holdCoverStartGreen" },
-          "hold": { "prefix": "holdCoverGreen" },
-          "end": { "prefix": "holdCoverEndGreen" }
+          "start": { "prefix": "hold start" },
+          "hold": { "prefix": "hold hold" },
+          "end": { "prefix": "hold end" }
         },
         "down": {
-          "start": { "prefix": "holdCoverStartBlue" },
-          "hold": { "prefix": "holdCoverBlue" },
-          "end": { "prefix": "holdCoverEndBlue" }
+          "start": { "prefix": "hold start" },
+          "hold": { "prefix": "hold hold" },
+          "end": { "prefix": "hold end" }
         }
       }
     },

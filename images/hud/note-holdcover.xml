@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="note-holdcover.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hold end0000" x="4" y="75" width="63" height="55" frameX="-1" frameY="-2" frameWidth="69" frameHeight="63"/>
+	<SubTexture name="hold end0001" x="4" y="75" width="63" height="55" frameX="-1" frameY="-2" frameWidth="69" frameHeight="63"/>
+	<SubTexture name="hold end0002" x="4" y="4" width="69" height="63"/>
+	<SubTexture name="hold end0003" x="4" y="4" width="69" height="63"/>
+	<SubTexture name="hold hold0000" x="81" y="4" width="56" height="47" frameX="-3" frameY="-2" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold hold0001" x="81" y="4" width="56" height="47" frameX="-3" frameY="-2" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold hold0002" x="75" y="75" width="59" height="47" frameX="0" frameY="0" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold hold0003" x="75" y="75" width="59" height="47" frameX="0" frameY="0" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold start0000" x="81" y="4" width="56" height="47" frameX="-3" frameY="-2" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold start0001" x="81" y="4" width="56" height="47" frameX="-3" frameY="-2" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold start0002" x="75" y="75" width="59" height="47" frameX="0" frameY="0" frameWidth="59" frameHeight="49"/>
+	<SubTexture name="hold start0003" x="75" y="75" width="59" height="47" frameX="0" frameY="0" frameWidth="59" frameHeight="49"/>
+</TextureAtlas>
