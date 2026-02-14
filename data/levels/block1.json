@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "DADDY DEAREST",
+  "titleAsset": "storymenu/titles/week1",
+  "props": [
+    {
+      "assetPath": "storymenu/props/rooi ou",
+      "scale": 1.0,
+      "offsets": [100, 240],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "rooi ou anim idle",
+          "frameRate": 24
+        }
+      ]
+    },
+    {
+      "assetPath": "storymenu/props/kerel",
+      "scale": 1.0,
+      "offsets": [680, 240],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "kerel anim idle",
+          "frameRate": 24
+        },
+        {
+          "name": "confirm",
+          "prefix": "kerel anim deathConfirm",
+          "frameRate": 24
+        }
+      ]
+    }
+  ],
+  "background": "#EEEEEE",
+  "songs": ["bitdep"]
+}
