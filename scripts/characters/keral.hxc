@@ -14,7 +14,7 @@ class KeralCharacter extends AnimateAtlasCharacter
 	{
 		super.onSongLoaded(event);
 
-		amIDead = true;
+		amIDead = false;
 
 		if (PlayState.instance != null)
 		{
