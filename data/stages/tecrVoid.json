@@ -27,8 +27,8 @@
 		"bf": {
 			"alpha": 1,
 			"angle": 0,
-			"cameraOffsets": [-100, -100],
-			"position": [949, 679],
+			"cameraOffsets": [0, 0],
+			"position": [1050, 693],
 			"scale": 1,
 			"scroll": [1, 1],
 			"zIndex": 300
@@ -36,8 +36,8 @@
 		"dad": {
 			"alpha": 1,
 			"angle": 0,
-			"cameraOffsets": [150, -100],
-			"position": [470.5, 693],
+			"cameraOffsets": [0, 0],
+			"position": [470, 693],
 			"scale": 1,
 			"scroll": [1, 1],
 			"zIndex": 200
