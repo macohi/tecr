@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "Block 1",
   "artists": ["Macohi"],
-  "albumArtAsset": "",
-  "albumTitleAsset": "",
+  "albumArtAsset": "shutup",
+  "albumTitleAsset": "shutup-asshole",
   "albumTitleOffsets": [0, 0]
 }
