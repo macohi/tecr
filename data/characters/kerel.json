@@ -3,7 +3,7 @@
   "name": "Kerel",
   "renderType": "animateatlas",
   "assetPath": "characters/kerel",
-  "flipX": false,
+  "flipX": true,
   "offsets": [0, 0],
   "cameraOffsets": [0,0],
   "death": {
