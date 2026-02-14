@@ -60,7 +60,7 @@
       "offsets": [0, 0],
       "isPixel": true,
       "data": {
-        "enabled": true,
+        "enabled": false,
         "leftSplashes": [
           { "prefix": "hold end" }
         ],
@@ -82,7 +82,7 @@
       "offsets": [-50, 0],
       "isPixel": true,
       "data": {
-        "enabled": true,
+        "enabled": false,
         "left": {
           "start": { "prefix": "hold start" },
           "hold": { "prefix": "hold hold" },
