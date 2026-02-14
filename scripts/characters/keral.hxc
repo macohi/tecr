@@ -1,0 +1,55 @@
+import flixel.FlxG;
+import funkin.play.PlayState;
+import funkin.play.character.AnimateAtlasCharacter;
+import funkin.play.character.CharacterType;
+
+class KeralCharacter extends AnimateAtlasCharacter
+{
+	public function new()
+	{
+		super('kerel');
+	}
+
+	public function onSongLoaded(event:SongLoadScriptEvent)
+	{
+		super.onSongLoaded(event);
+
+		amIDead = true;
+
+		if (PlayState.instance != null)
+		{
+			if (characterType == CharacterType.BF)
+				PlayState.instance.iconP1.visible = false;
+			if (characterType == CharacterType.DAD)
+				PlayState.instance.iconP2.visible = false;
+		}
+	}
+
+	public var amIDead:Bool = false;
+	
+	public function onGameOver(event:ScriptEvent)
+	{
+		super.onGameOver(event);
+
+		if (characterType == CharacterType.BF)
+			amIDead = true;
+	}
+
+	public function onSongRetry(event:SongRetryEvent)
+	{
+		super.onSongRetry(event);
+
+		amIDead = false;
+	}
+
+	public function onUpdate(event:UpdateScriptEvent)
+	{
+		super.onUpdate(event);
+
+		if (amIDead)
+		{
+			if (FlxG.random.bool(FlxG.random.float(0,1.0)))
+				playAnimation('deathLoop');
+		}
+	}
+}
