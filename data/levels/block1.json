@@ -28,6 +28,7 @@
         {
           "name": "confirm",
           "prefix": "kerel anim deathConfirm",
+	  "offsets": [-25, 0],
           "frameRate": 24
         }
       ]
