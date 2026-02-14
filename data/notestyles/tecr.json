@@ -7,7 +7,7 @@
     "note": {
       "assetPath": "hud/note-colored",
       "alpha": 1,
-      "scale": 1,
+      "scale": 0.8,
       "offsets": [0, 0],
       "isPixel": true,
       "data": {
@@ -20,9 +20,9 @@
     "noteStrumline": {
       "assetPath": "hud/note-static",
       "alpha": 1,
-      "scale": 1,
+      "scale": 0.8,
       "isPixel": true,
-      "offsets": [25, 0],
+      "offsets": [39, 0],
       "data": {
         "leftStatic": { "prefix": "static note idle" },
         "leftPress": { "prefix": "static note pressed" },
@@ -48,8 +48,8 @@
     "holdNote": {
       "assetPath": "hud/note-hold",
       "alpha": 1,
-      "scale": 2,
-      "offsets": [-24, 0],
+      "scale": 4,
+      "offsets": [0, -24],
       "isPixel": true,
       "data": {}
     },
