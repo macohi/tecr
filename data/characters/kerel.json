@@ -4,7 +4,7 @@
   "renderType": "animateatlas",
   "assetPath": "characters/kerel",
   "flipX": false,
-  "offsets": [17, 14],
+  "offsets": [0, 0],
   "cameraOffsets": [0,0],
   "death": {
     "cameraOffsets": [0,0]
